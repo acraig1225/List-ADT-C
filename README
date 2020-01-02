@@ -1,0 +1,49 @@
+/********************************************************************************************************************
+*	File: README
+*	Name: Andrew Craig
+*	CruzID: 1746116
+*	Assignment: pa1
+*********************************************************************************************************************/
+
+
+/********************************************************************************************************************
+*											   List ADT
+*********************************************************************************************************************/
+
+Description: The purpose of the List ADT is to implement a doubly linked list that stores integers. Keeps track of
+			 the location of the front of the list, the back of the list, and a cursor that has the ability to
+			 traverse the list at will.
+			 
+			 Contains the following functions: 
+			 		* Constructors and destructors to create new lists and destory old ones.
+			 		* Access functions to retrive data on the current list or to find the current position of 
+			 		  the cursor.
+			 		* Manipulation procedures to add or remove elements from the current list and to change
+			 		  the location of the cursor.
+			 		* Misc. operations to print, copy, or concatenate a list.
+
+
+/********************************************************************************************************************
+*											Included Files
+*********************************************************************************************************************/
+
+1)	File: List.h
+	Description: Header file for List ADT, contains the typedef of the ListObj and prototypes of exported functions.
+
+2)	File: List.c
+	Description: Implementation file for List ADT, containing struct and function definitions. Also contains the
+				 delcaration and implementation of the NodeObj struct and its associated constructors and destructors.
+
+3)	File: ListClient.c
+	Description: Test client for the List ADT to verify its capabilities.
+
+4)	File: Lex.c
+	Description: Reads the lines of a given input file and stores each line into an array. It then, with the help of 
+				 the List ADT, writes the contents of the array in lexicographic order into a given output file.  
+
+5)	File: Makefile
+	Description: Has the ability to create an executable binary file for both Lex.c and ListClient.c. Also can
+				 remove any .o files associated with Lex.c and ListClient.c once finished.
+
+6)	File: README
+	Description: Provides a brief description of each file its role in the project.
